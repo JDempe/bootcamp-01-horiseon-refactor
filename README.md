@@ -38,6 +38,8 @@ The below resources contributed to the decisions made on how to most effectively
 - [David MacDonald](https://twitter.com/davidmacd) explained the best way to provide accessibility alt text to a background image in [this](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html) blog post.
 
 - W3 Schools has many in depth tutorials.  Their [tutorial](https://www.w3schools.com/html/html5_semantic_elements.asp) on semantic elements was referenced heavily in refactoring.
+
+- [html5doctor](http://html5doctor.com/html-5-reset-stylesheet/) provided a reset stylesheet template online for free that was used in this project.
 ### Collaborators
 
 The Slack channel east-coast-study-group that is part of the Bootcamp Slack group collaborated on this assignment by reviewing eachother's code and providing feedback.
