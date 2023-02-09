@@ -1,65 +1,56 @@
-# <Your-Project-Title>
+# CBC Week 01 Challenge: Horiseon Refactor
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project is the first challenge from the coding bootcamp from UC Berkeley.  The initial commit of the main branch is the code that was provided, and the challenge was to refactor the code to make it more maintainable, readable, and accessible.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Maintainability and readability allow future developers to spend less time deciphering code and more time fixing or improving it.  By thoughtfully laying out the semantic elements, the webpage can easily expand to provide more content with minimal or no need to touch the stylesheets.  Accessibility is key to ensuring websites are available to all possible customers and can even help with search engine optimization (SEO) to give webpages an edge in being found in searches.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+The refactoring consisted of these major methodologies:
+- Combine redundant classes into a reusable class.
+- Replace non-semantic elements like `<div>` that provide no context for Browser Readers, SEO, or developers and replace with semantic elements.
+- Create a more readable code by adding comments explaining the purpose of major blocks of code.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+There is no installation process for this project.  It is already deployed at:
+
+https://jdempe.github.io/bootcamp-01-horiseon-refactor/
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+At the top right of the page in the header, navigation links will redirect the user to the related text lower on the page.  There are no other interactive features on the page.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+## Mock Up
 
-![alt text](assets/images/screenshot.png)
+The mock up below was provided in the Bootcamp Homework materials.  The homework criteria required that the refactoring left all functionality and at least 90% of the visual elements intact.
+
+![Mock up of homepage layout](./assets/images/01-html-css-git-homework-demo.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+### Resources
+The below resources contributed to the decisions made on how to most effectively refactor the webpage.
+- The original code for this refactor was provided by the UC Berkeley Coding Bootcamp, ran by edX Boot Camps LLC.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+- [Brett Jankord](https://github.com/bjankord) provided an in depth look at when and how to use HTML class names in [this](https://www.brettjankord.com/blog/thoughts-on-semantic-html-class-names-and-maintainability/) blog post.
 
-If you followed tutorials, include links to those here as well.
+- [David MacDonald](https://twitter.com/davidmacd) explained the best way to provide accessibility alt text to a background image in [this](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html) blog post.
+
+- W3 Schools has many in depth tutorials.  Their [tutorial](https://www.w3schools.com/html/html5_semantic_elements.asp) on semantic elements was referenced heavily in refactoring.
+### Collaborators
+
+The Slack channel east-coast-study-group that is part of the Bootcamp Slack group collaborated on this assignment by reviewing eachother's code and providing feedback.
+
+Code reviewers for this repository were:
+
+- George Johnson ([GitHub](https://github.com/GeorgeCJohnson))
+- Carlos Martinez
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
+Refer to the LICENSE in the repository.
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Contribute at https://github.com/JDempe/bootcamp-01-horiseon-refactor
