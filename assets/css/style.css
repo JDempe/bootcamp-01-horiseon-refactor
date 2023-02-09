@@ -1,11 +1,11 @@
-/* Universal Default Styles */
+/* Default Styles */
 * {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
 }
 
-/* Specific Element Styles */
+/* General Element Styles */
 a {
    color: #ffffff;
    text-decoration: none;
@@ -19,6 +19,7 @@ body {
    background-color: #d9dcd6;
 }
 
+/* Classes for picture elements being left or right aligned.  Abstracted from img style because it is the only difference between pictures. */
 .float-left {
    float: left;
    margin-right: 25px;
@@ -29,13 +30,14 @@ body {
    margin-left: 25px;
 }
 
-/* Header Styles */
+/* All styles that occur within the Header element.  It is assumed there is only one header on the page, so the semantic element is used as selector. */
 header {
    padding: 20px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    background-color: #2a607c;
    color: #ffffff;
 }
+
 
 header h1 {
    display: inline-block;
@@ -60,15 +62,18 @@ header li {
    margin-left: 25px;
 }
 
-/* Banner Image Style */
+/* Banner Image that displays between header and  */
 .bannerimg{
    height: 800px;
    width: 100%;
    margin-bottom: 25px;
-   object-fit: cover;
+   background-image: url("../images/digital-marketing-meeting.jpg");
+   background-size: cover;
+   background-position: center;
 }
 
 /* Content Section Styles */
+/* Each article in the main content section is identical in style so all are combined into one style per element */
 .content {
    width: 75%;
    display: inline-block;
@@ -94,6 +99,7 @@ header li {
 }
 
 /* Benefits Section Styles */
+/* Each article in the benefits side content is identical in style so all are combined into one style per element */
 .benefits {
    margin-right: 20px;
    padding: 20px;
@@ -121,7 +127,7 @@ header li {
    max-width: 150px;
 }
 
-/* Footer Styles */
+/* All styles that occur within the Footer element.  It is assumed there is only one footer on the page, so the semantic element is used as selector. */
 footer {
    padding: 30px;
    clear: both;
